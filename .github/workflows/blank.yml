@@ -23,7 +23,7 @@ jobs:作业:
     # Steps represent a sequence of tasks that will be executed as part of the job# 步骤代表将作为作业一部分执行的一系列任务# 步骤代表将作为作业一部分执行的一系列任务# 步骤代表将作为作业一部分执行的一系列任务# 步骤代表将作为作业一部分执行的一系列任务# 步骤代表将作为作业一部分执行的一系列任务# 步骤代表将作为作业一部分执行的一系列任务
     steps:步骤:步骤:步骤步骤：步骤：步骤：步骤步骤:步骤:步骤:步骤步骤：步骤：步骤：步骤步骤：步骤：步骤：步骤步骤：步骤：步骤：步骤步骤：步骤：步骤：步骤步骤：步骤：步骤：步骤:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it# 将您的仓库检出到 $GITHUB_WORKSPACE 下，以便您的作业可以访问它# 将您的仓库检出到 $GITHUB_WORKSPACE 下，以便您的作业可以访问它# 将您的仓库检出到 $GITHUB_WORKSPACE 下，以便您的作业可以访问它# 将您的仓库检出到 $GITHUB_WORKSPACE 下，以便您的作业可以访问它# 将您的仓库检出到 $GITHUB_WORKSPACE 下，以便您的作业可以访问它# 将您的仓库检出到 $GITHUB_WORKSPACE 下，以便您的作业可以访问它# 将您的仓库检出到 $GITHUB_WORKSPACE 下，以便您的作业可以访问它# 将您的仓库检出到 $GITHUB_WORKSPACE 下，以便您的作业可以访问它# 将您的仓库检出到 $GITHUB_WORKSPACE 下，以便您的作业可以访问它# 将您的仓库检出到 $GITHUB_WORKSPACE 下，以便您的作业可以访问它# 将您的仓库检出到 $GITHUB_WORKSPACE 下，以便您的作业可以访问它# 将您的仓库检出到 $GITHUB_WORKSPACE 下，以便您的作业可以访问它
-      - uses: actions/checkout@v4.2.2      - 使用: actions/checkout@v4.2.2
+      - uses: actions/checkout@v4      - 使用: actions/checkout@v4
 
       # Runs a single command using the runners shell# 使用 runners shell 运行单个命令# 使用 runners shell 运行单个命令# 使用 runners shell 运行单个命令# 使用 runners shell 运行单个命令# 使用 runners shell 运行单个命令# 使用 runners shell 运行单个命令# 使用 runners shell 运行单个命令# 使用 runners shell 运行单个命令# 使用 runners shell 运行单个命令# 使用 runners shell 运行单个命令# 使用 runners shell 运行单个命令# 使用 runners shell 运行单个命令# 使用 runners shell 运行单个命令# 使用 runners shell 运行单个命令# 使用 runners shell 运行单个命令
       - name: Run a one-line script      - name: 运行一行脚本 - 名称:       - name: 运行一行脚本 - 名称: 运行一行脚本 - 名称: 运行一行脚本
