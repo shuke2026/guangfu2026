@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">光伏测算</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">首页测算</string>
+    <string name="nav_customers">客户档案</string>
+    <string name="nav_reports">报告记录</string>
+    <string name="nav_profile">我的</string>
+
+    <!-- Home Screen -->
+    <string name="simple_calc">简易测算</string>
+    <string name="pro_calc">专业测算</string>
+    <string name="roof_area">屋顶可用面积（㎡）</string>
+    <string name="install_scene">安装场景</string>
+    <string name="scene_residential">户用</string>
+    <string name="scene_commercial">工商业</string>
+    <string name="scene_factory">工厂</string>
+    <string name="province_city">所在省市</string>
+    <string name="select_province">选择省份</string>
+    <string name="select_city">选择城市</string>
+    <string name="start_calc">一键测算</string>
+
+    <!-- Pro Calc -->
+    <string name="industry_type">用电行业</string>
+    <string name="electricity_type">用电类型</string>
+    <string name="type_residential">居民</string>
+    <string name="type_general">一般工商业</string>
+    <string name="type_large_industry">大工业</string>
+    <string name="peak_price">峰时电价（元/kWh）</string>
+    <string name="valley_price">谷时电价（元/kWh）</string>
+    <string name="flat_price">平时电价（元/kWh）</string>
+    <string name="generation_mode">发电模式</string>
+    <string name="mode_full_grid">全额上网</string>
+    <string name="mode_self_use">自发自用</string>
+    <string name="mode_surplus">余电上网</string>
+    <string name="panel_power">组件功率</string>
+    <string name="tilt_angle">安装倾角（°）</string>
+    <string name="system_efficiency">系统效率（%）</string>
+
+    <!-- Results -->
+    <string name="result_title">测算结果</string>
+    <string name="installed_capacity">装机容量</string>
+    <string name="panel_count">组件数量</string>
+    <string name="daily_generation">日均发电量</string>
+    <string name="monthly_generation">月均发电量</string>
+    <string name="yearly_generation">年发电量</string>
+    <string name="total_25y_generation">25年总发电量</string>
+    <string name="total_investment">项目总投资</string>
+    <string name="monthly_saving">月节电收益</string>
+    <string name="yearly_saving">年节电收益</string>
+    <string name="total_25y_saving">25年总收益</string>
+    <string name="static_payback">静态回本周期</string>
+    <string name="dynamic_payback">动态回本周期</string>
+    <string name="coverage_ratio">用电覆盖比例</string>
+    <string name="saving_rate">节电率</string>
+    <string name="carbon_reduction">碳减排量</string>
+    <string name="trees_equivalent">等效植树量</string>
+
+    <!-- Customer -->
+    <string name="customer_name">客户姓名</string>
+    <string name="customer_phone">联系电话</string>
+    <string name="customer_address">详细地址</string>
+    <string name="save_customer">保存客户</string>
+    <string name="search_customer">搜索客户</string>
+
+    <!-- Report -->
+    <string name="generate_pdf">生成PDF报告</string>
+    <string name="share_report">分享报告</string>
+    <string name="report_history">历史报告</string>
+
+    <!-- Profile -->
+    <string name="company_name">公司名称</string>
+    <string name="company_logo">公司LOGO</string>
+    <string name="contact_info">联系方式</string>
+    <string name="about">关于</string>
+    <string name="version">版本</string>
+
+    <!-- Common -->
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="save">保存</string>
+    <string name="hint_input_area">请输入屋顶可用面积</string>
+    <string name="hint_input_name">请输入客户姓名</string>
+    <string name="hint_input_phone">请输入联系电话</string>
+    <string name="hint_input_address">请输入详细地址</string>
+    <string name="no_data">暂无数据</string>
+    <string name="calc_success">测算完成</string>
+    <string name="save_success">保存成功</string>
+    <string name="delete_success">删除成功</string>
+    <string name="pdf_generating">正在生成PDF…</string>
+    <string name="pdf_success">PDF已生成</string>
+    <string name="kw">kW</string>
+    <string name="kwh">kWh</string>
+    <string name="yuan">元</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">天</string>
+    <string name="piece">块</string>
+    <string name="ton">吨</string>
+    <string name="trees">棵</string>
+</resources>
